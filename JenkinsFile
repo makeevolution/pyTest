@@ -2,9 +2,13 @@ pipeline {
     agent any
 
     stages {
-        stage('test') {
+        stage('echo') {
             steps {
                 echo %PATH%
+            }
+        }
+        stage('test') {
+            steps {
                 bat "python -m pytest test_sourceCode.py"
             }
         }
