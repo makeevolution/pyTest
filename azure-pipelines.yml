@@ -27,5 +27,5 @@ steps:
 
 - script: |
     pip install pytest pytest-azurepipelines
-    pytest test_sourceCode.py
+    python -m pytest test_sourceCode.py
   displayName: 'test the source file'
