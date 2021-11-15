@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('test') {
             steps {
-                bat "C://Users//320145763//AppData//Local//Programs//Python//Python39//python.exe -m pytest test_sourceCode.py"
+                bat "python -m pytest test_sourceCode.py"
             }
         }
     }
