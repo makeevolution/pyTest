@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('test') {
             steps {
-                sh "python -m pytest test_sourceCode.py"
+                bat "python -m pytest test_sourceCode.py"
             }
         }
     }
