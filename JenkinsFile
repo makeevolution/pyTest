@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('echo') {
             steps {
-                echo %PATH%
+                bat "echo %PATH%"
             }
         }
         stage('test') {
