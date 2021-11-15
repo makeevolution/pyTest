@@ -1,4 +1,4 @@
-from SourceCode import SourceCode
+from sourceCode import SourceCode
 
 test1 = SourceCode()
 
